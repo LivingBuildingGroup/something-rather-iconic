@@ -1,0 +1,46 @@
+{
+  "name": "something-rather-iconic",
+  "version": "1.0.0",
+  "description": "React component svg icons",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack",
+    "test": "mocha",
+    "compile": "babel src -d compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradcgarner/something-rather-iconic.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "icon"
+  ],
+  "author": {
+    "name": "Brad Garner",
+    "email": "brad@bradgarner.com"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "node-pre-gyp": "^0.13.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.6.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bradcgarner/something-rather-iconic/issues"
+  },
+  "homepage": "https://github.com/bradcgarner/something-rather-iconic#readme"
+}
