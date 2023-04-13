@@ -23,8 +23,8 @@
     "email": "brad@bradgarner.com"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18"
+    "react": "^16",
+    "react-dom": "^16"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
